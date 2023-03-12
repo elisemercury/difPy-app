@@ -64,6 +64,11 @@ folder_upload_path = "uploads"
 duplicate_path = "duplicates"
 timestamp = None
 
+if not os.path.isdir(folder_upload_path):
+    os.makedirs(folder_upload_path)
+if not os.path.isdir(duplicate_path):
+    os.makedirs(duplicate_path)
+
 if "difPy" not in st.session_state:
     st.session_state["difPy"] = False
 
