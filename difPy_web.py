@@ -166,6 +166,8 @@ def get_info(stdout):
 def clear_result():
     if st.session_state["view_samples"]:
         pass
+    elif st.session_state["download"]:
+        pass
     elif st.session_state["show_result"]:
         st.session_state["show_result"] = not st.session_state["show_result"]
     else:
@@ -251,7 +253,7 @@ if not isinstance(st.session_state["difPy"], bool) and st.session_state["show_re
         with col1:
             with open(f"difPy.zip", "rb") as fp:
                 btn = st.download_button("⬇️ Download result", data=fp, file_name=f"difPy_{timestamp}.zip", mime="application/zip", disabled=False, 
-                                        help="Download a ZIP file of the deduplicated images.")
+                                        help="Download a ZIP file of the deduplicated images.", key="download")
         with col2:
             st.button("View sample result!", key="view_samples")
 
