@@ -78,6 +78,9 @@ if "difPy_info" not in st.session_state:
 if "view_samples" not in st.session_state:
     st.session_state["view_samples"] = False
 
+if "download" not in st.session_state:
+    st.session_state["download"] = False
+
 if "show_result" not in st.session_state:
     st.session_state["show_result"] = False
 
