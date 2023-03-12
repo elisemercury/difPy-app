@@ -193,7 +193,7 @@ with st.sidebar:
 st.title("📷 difPy Duplicate Image Finder")
 st.info("✨ Supports all popular image formats - JPG, PNG, BMP, etc.")
 
-st.write(f"difPy automates the search for duplicate images for you. difPy Web lets you compare up to {max_upload} images. Upload images to start.")
+st.write(f"difPy automates the **search for duplicate images** for you. difPy Web lets you compare **up to {max_upload}** images. Upload images to start.")
 
 uploaded_files = st.file_uploader("Upload Images", 
                                   accept_multiple_files=True, 
