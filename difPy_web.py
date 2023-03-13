@@ -16,7 +16,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-
 def clean_directory(dir):
     shutil.rmtree(dir)
     os.makedirs(dir)
@@ -176,7 +175,7 @@ def clear_result():
     else:
         pass
 
-max_upload = 50
+max_upload = 100
 
 ## App Logic ##
 
