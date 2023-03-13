@@ -7,7 +7,7 @@ import difPy
 from difPy import dif
 import io
 from contextlib import redirect_stdout
-from __version__ import __version__
+from version import __version__
 
 st.set_page_config(
     page_title="difPy - Duplicate Image Finder",
