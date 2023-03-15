@@ -187,7 +187,7 @@ with st.sidebar:
     #st.write(f'**Need to compare more than {max_upload} images?** [Download the difPy App](https://difpy.readthedocs.io/en/latest/app.html)')
     st.markdown('difPy is free of charge for anyone to use. Like difPy? Consider donating to support the project 🫶')
     st.markdown('[![PayPal Support](https://img.shields.io/badge/Support-difPy-yellow?style=flat&logo=paypal&labelColor=white&logoWidth=20.svg)](https://paypal.me/eliselandman)&nbsp;&nbsp;&nbsp;[![Revolut Support](https://img.shields.io/badge/Support-difPy-blueviolet?style=flat&logo=revolut&logoColor=black&labelColor=white&logoWidth=20.svg/)](https://revolut.me/elisemercury)')
-    st.caption("[Open a bug](https://test.com)")
+    st.caption("[Open a bug](https://github.com/elisemercury/Duplicate-Image-Finder/issues/new)")
 
 st.title("📷 difPy Duplicate Image Finder")
 st.info("✨ Supports all popular image formats - JPG, PNG, BMP, etc.")
@@ -206,11 +206,11 @@ with st.expander("Advanced options", expanded=False):
     st.markdown('<span style="font-size: 12px">For more information on advanced options, please see the [difPy Usage Documentation](https://difpy.readthedocs.io/en/latest/app.html).</span>', unsafe_allow_html=True)
     adv_col1, adv_col2, adv_col3 = st.columns(3)
     with adv_col1:
-        option_fsa = st.checkbox("Fast Search (FSA)", value=True, help="Enable/disable difPy's **Fast Search Algorithm**. [Read more](https://test.com)", key="FSA", on_change=clear_result())
+        option_fsa = st.checkbox("Fast Search (FSA)", value=True, help="Enable/disable difPy's **Fast Search Algorithm**. [Read more](https://difpy.readthedocs.io/en/latest/app.html#fast-search-fsa)", key="FSA", on_change=clear_result())
     with adv_col2:
-        option_similarity = st.selectbox("Similarity", ("duplicates", "similar"), index=0, help="Set the **similarity level** for the comparison. [Read more](https://test.com)", key="similarity", on_change=clear_result())
+        option_similarity = st.selectbox("Similarity", ("duplicates", "similar"), index=0, help="Set the **similarity level** for the comparison. [Read more](https://difpy.readthedocs.io/en/latest/app.html#similarity)", key="similarity", on_change=clear_result())
     with adv_col3:
-        option_pxsize = st.selectbox("Pixel size", (25, 50, 100, 200), index=1, help="**Recommended not to change default value!** Adjust the **pixel size** of the images before being compared. [Read more](https://test.com)", key="px_size", on_change=clear_result())
+        option_pxsize = st.selectbox("Pixel size", (25, 50, 100, 200), index=1, help="**Recommended not to change default value!** Adjust the **pixel size** of the images before being compared. [Read more](https://difpy.readthedocs.io/en/latest/app.html#pixel-size)", key="px_size", on_change=clear_result())
 
 # Button: Run difPy
 submit_btn = st.button("Run difPy!", type="primary", key="run") 
