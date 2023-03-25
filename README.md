@@ -1,10 +1,10 @@
 # difPy Web App - [difpy.app](https://difpy.app/)
 
+[<img src="https://img.shields.io/badge/dif-Py-blue?style=flat&logo=python&labelColor=white&logoWidth=20.svg/"></a>](https://github.com/elisemercury/Duplicate-Image-Finder/)
 [![PyPI status](https://img.shields.io/pypi/status/difPy)](https://pypi.org/project/difPy/)
 [![Documentation Status](https://readthedocs.org/projects/difpy/badge/?version=latest)](https://difpy.readthedocs.io/en/latest/?badge=latest)
 [![Downloads](https://static.pepy.tech/badge/difpy)](https://pepy.tech/project/difpy)
 [![PyPI - License](https://img.shields.io/pypi/l/difPy)](https://github.com/elisemercury/Duplicate-Image-Finder/blob/main/LICENSE.txt)
-[<img src="https://img.shields.io/badge/dif-Py-blue?style=flat&logo=python&labelColor=white&logoWidth=20.svg/"></a>](https://github.com/elisemercury/Duplicate-Image-Finder/)
 
 **Repository of the official difPy Web App - based on [difPy](https://github.com/elisemercury/Duplicate-Image-Finder/) and [Streamlit](https://github.com/streamlit/streamlit)**
 
