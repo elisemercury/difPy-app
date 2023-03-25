@@ -1,4 +1,4 @@
-# difPy Web App
+# difPy Web App - [difpy.app](https://difpy.app/)
 
 [![PyPI status](https://img.shields.io/pypi/status/difPy)](https://pypi.org/project/difPy/)
 [![Documentation Status](https://readthedocs.org/projects/difpy/badge/?version=latest)](https://difpy.readthedocs.io/en/latest/?badge=latest)
@@ -7,6 +7,8 @@
 [<img src="https://img.shields.io/badge/dif-Py-blue?style=flat&logo=python&labelColor=white&logoWidth=20.svg/"></a>](https://github.com/elisemercury/Duplicate-Image-Finder/)
 
 **Repository of the official difPy Web App - based on [difPy](https://github.com/elisemercury/Duplicate-Image-Finder/) and [Streamlit](https://github.com/streamlit/streamlit)**
+
+:iphone: **Try the new [difPy Web App](https://difpy.app/)**!
 
 :notebook: For a **detailed usage guide**, please view the official **[difPy Web App Usage Documentation](https://difpy.readthedocs.io/en/latest/app.html)**.
 
