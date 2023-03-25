@@ -16,7 +16,7 @@
 The difPy Web App is based on difPy, a Python-based package that automates the search for duplicate/similar images.
 
 <p align="center">
-  <img src="misc/difPyweb_demo.gif" width="500" title="Demo: difPy Web App">
+  <img src="misc/difPyweb_demo.gif" width="600" title="Demo: difPy Web App">
 </p>
 
 difPy does not compare images based on their hashes. It compares them based on their tensors i. e. the image content - this allows difPy to **not only search for duplicate images, but also for similar images**.
