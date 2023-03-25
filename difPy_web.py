@@ -62,6 +62,7 @@ st.write('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_h
 folder_upload_path = "uploads"
 duplicate_path = "duplicates"
 timestamp = None
+max_upload = 200
 
 if not os.path.isdir(folder_upload_path):
     os.makedirs(folder_upload_path)
@@ -175,17 +176,15 @@ def clear_result():
     else:
         pass
 
-max_upload = 100
-
 ## App Logic ##
 
 with st.sidebar:
     st.title("difPy Web")
     st.caption(f"Version {difPy.__version__} / {__version__}")
     st.write('[How to use difPy Web?](https://difpy.readthedocs.io/en/latest/app.html)')
-    st.write('difPy is an open-source project with the aim of facilitating offline image deduplication - for everyone.')
+    st.write('difPy is an open-source project with the aim of facilitating image deduplication - for everyone.')
     #st.write(f'**Need to compare more than {max_upload} images?** [Download the difPy App](https://difpy.readthedocs.io/en/latest/app.html)')
-    st.markdown('difPy is free of charge for anyone to use. Like difPy? Consider donating to support the project 🫶')
+    st.markdown('difPy Web is free of charge for anyone to use. Like difPy? Consider donating to support the project 🫶')
     st.markdown('[![PayPal Support](https://img.shields.io/badge/Support-difPy-yellow?style=flat&logo=paypal&labelColor=white&logoWidth=20.svg)](https://paypal.me/eliselandman)&nbsp;&nbsp;&nbsp;[![Revolut Support](https://img.shields.io/badge/Support-difPy-blueviolet?style=flat&logo=revolut&logoColor=black&labelColor=white&logoWidth=20.svg/)](https://revolut.me/elisemercury)')
     st.caption("[Open a bug](https://github.com/elisemercury/Duplicate-Image-Finder/issues/new)")
 
