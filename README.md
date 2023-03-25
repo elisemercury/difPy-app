@@ -6,7 +6,7 @@
 [![Downloads](https://static.pepy.tech/badge/difpy)](https://pepy.tech/project/difpy)
 [![PyPI - License](https://img.shields.io/pypi/l/difPy)](https://github.com/elisemercury/Duplicate-Image-Finder/blob/main/LICENSE.txt)
 
-**Repository of the official difPy Web App - based on [difPy](https://github.com/elisemercury/Duplicate-Image-Finder/) and [Streamlit](https://github.com/streamlit/streamlit)**
+**Repository of the official difPy Web App - based on [difPy](https://github.com/elisemercury/Duplicate-Image-Finder/) and [Streamlit](https://github.com/streamlit/streamlit)**.
 
 :notebook: For a **detailed usage guide**, please view the official **[difPy Web App Usage Documentation](https://difpy.readthedocs.io/en/latest/app.html)**.
 
@@ -18,7 +18,7 @@
 
 :white_check_mark: The difPy Web App **automates** this task for you!
 
-Upload **up to 200 images** and let difPy compare them for you. After the comparison is done, difPy let's you **download a ZIP file of the deduplicated images**.
+Upload **up to 200 images** and let difPy compare them for you. After the comparison is done, difPy lets you **download a ZIP file of the deduplicated images**.
 
 <p align="center">
   <img src="misc/difPyweb_demo.gif" width="700" title="Demo: difPy Web App">
