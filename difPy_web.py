@@ -186,7 +186,7 @@ with st.sidebar:
     #st.write(f'**Need to compare more than {max_upload} images?** [Download the difPy App](https://difpy.readthedocs.io/en/latest/app.html)')
     st.markdown('difPy Web is free of charge for anyone to use. Like difPy? Consider donating to support the project 🫶')
     st.markdown('[![PayPal Support](https://img.shields.io/badge/Support-difPy-yellow?style=flat&logo=paypal&labelColor=white&logoWidth=20.svg)](https://paypal.me/eliselandman)&nbsp;&nbsp;&nbsp;[![Revolut Support](https://img.shields.io/badge/Support-difPy-blueviolet?style=flat&logo=revolut&logoColor=black&labelColor=white&logoWidth=20.svg/)](https://revolut.me/elisemercury)')
-    st.caption("[Open a bug](https://github.com/elisemercury/Duplicate-Image-Finder/issues/new)")
+    st.caption("[Open a bug](https://github.com/elisemercury/difPy-app/issues/new)")
 
 st.title("📷 difPy Duplicate Image Finder")
 st.info("✨ Supports all popular image formats - JPG, PNG, BMP, etc.")
