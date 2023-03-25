@@ -8,14 +8,17 @@
 
 **Repository of the official difPy Web App - based on [difPy](https://github.com/elisemercury/Duplicate-Image-Finder/) and [Streamlit](https://github.com/streamlit/streamlit)**
 
-:iphone: **Try the new [difPy Web App](https://difpy.app/)**!
-
 :notebook: For a **detailed usage guide**, please view the official **[difPy Web App Usage Documentation](https://difpy.readthedocs.io/en/latest/app.html)**.
 
 -------
 
 ## Description
-The difPy Web App is based on difPy, a Python-based package that automates the search for duplicate/similar images.
+
+**Tired of going through all images in a folder and comparing them manually to check if they are duplicates?**
+
+:white_check_mark: The difPy Web App **automates** this task for you!
+
+Upload **up to 200 images** and let difPy compare them for you. After the comparison is done, difPy let's you **download a ZIP file of the deduplicated images**.
 
 <p align="center">
   <img src="misc/difPyweb_demo.gif" width="700" title="Demo: difPy Web App">
