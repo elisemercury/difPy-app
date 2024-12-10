@@ -1,4 +1,4 @@
-> :warning: **The difPy web app was deprecated and taken offline as of 12 December 2024**.
+> :warning: **The difPy web app was deprecated and taken offline as of 10 December 2024**.
 
 # difPy Web App - [difpy.app](https://difpy.app/)
 
