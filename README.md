@@ -1,3 +1,5 @@
+> :warning: **The difPy web app was deprecated and taken offline as of 12 December 2024**.
+
 # difPy Web App - [difpy.app](https://difpy.app/)
 
 [<img src="https://img.shields.io/badge/dif-Py-blue?style=flat&logo=python&labelColor=white&logoWidth=20.svg/"></a>](https://github.com/elisemercury/Duplicate-Image-Finder/)
